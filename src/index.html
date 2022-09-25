@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
-</head>
+    <body>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+        <div>
+            <h1>Word of the Day 📚</h1>
+            <p>Press the button below to receive a random word and its meaning!</p>
+         <button onclick=generateWord();>New Word</button> 
+         <div>
+            <h2 id=wordOutput></h2> <!--word will be output here-->
 
+            <h3 id=typeOutput></h3> <!--type will be output here-->
+
+            <p id=meaningOutput></p> <!--meaning will be output here-->
+            
+         </div>  
+
+         <script src ="app.js"> </script>
+        </div>
+    </body>
 </html>

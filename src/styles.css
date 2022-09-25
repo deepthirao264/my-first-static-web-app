@@ -1,21 +1,40 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
-}
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
+div{
   text-align: center;
-  font-size: 3.5em;
 }
+
+h1{
+  font-size: 80px;
+  font-family: 'Segoe UI';
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  background-color: cadetblue;
+  color: white;
+  font-size: large;
+  font-family: 'Segoe UI';
+}
+
+h2{
+  font-size: 60px;
+  font-family: 'Segoe UI';
+}
+
+h3{
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Segoe UI';
+
+}
+
+p {
+ font-size: 35px; 
+ font-family: 'Segoe UI'
+
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
